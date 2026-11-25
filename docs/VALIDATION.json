@@ -1,0 +1,55 @@
+{
+  "checked_at_utc": "2026-11-25T07:03:23.298075+00:00",
+  "tested_source_commit": "c39850e4c7efba943156b5d2fc64b34b791cef27",
+  "public_clone_without_credentials": true,
+  "git_lfs_weight_files_verified": 5,
+  "header_bundle_files_verified": 75,
+  "fresh_python_environment": true,
+  "external_workspace_pythonpath_cleared": true,
+  "platform": "Windows",
+  "python_version": "3.12.10",
+  "packages": {
+    "torch": "2.5.1+cpu",
+    "torchvision": "0.20.1+cpu",
+    "numpy": "1.26.4",
+    "paddlepaddle": "3.0.0",
+    "paddleocr": "3.0.3",
+    "paddlex": "3.0.3",
+    "transformers": "5.3.0",
+    "tokenizers": "0.22.2",
+    "Pillow": "10.4.0",
+    "PyYAML": "6.0.2",
+    "rapidfuzz": "3.14.6"
+  },
+  "pip_check": "PASS",
+  "unit_tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "full_image_smoke": {
+    "sample": "examples/00001.png",
+    "synthetic": true,
+    "source_sha256": "394930960c8858b1e4e8d82f94fee9d1065cb54dfcd10677fb3e79a34c0bc03c",
+    "stages": {
+      "reader": "OK",
+      "segmentation": "OK",
+      "table": "OK",
+      "header": "OK",
+      "footer": "OK"
+    },
+    "shared_vietocr_source_verified": true,
+    "header_exact": 8,
+    "header_scored": 9,
+    "seller_name": "CỬA HÀNG MẪU SAO VIỆT",
+    "table_rows": 5,
+    "exact_quantity_price_amount_cells": 15,
+    "total_amount_vnd": 884000,
+    "remaining_errors": [
+      "buyer THỬ -> THỨ",
+      "Sổ -> Số",
+      "Quyển -> Quyền",
+      "0% -> 0#"
+    ]
+  },
+  "scope": "One synthetic full-pipeline smoke test. Not an independent real-invoice accuracy benchmark."
+}
