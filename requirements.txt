@@ -1,0 +1,24 @@
+-c requirements-lock.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+numpy==1.26.4
+Pillow==10.4.0
+paddlepaddle==3.0.0
+paddleocr==3.0.3
+paddlex[ocr]==3.0.3
+langchain==0.3.30
+langchain-community==0.3.31
+langchain-core==0.3.86
+langchain-openai==0.3.35
+langchain-text-splitters==0.3.11
+setuptools==80.9.0
+transformers==5.3.0
+tokenizers==0.22.2
+huggingface-hub==1.33.0
+einops==0.8.2
+opencv-contrib-python==4.10.0.84
+PyYAML==6.0.2
+rapidfuzz==3.14.6
+jsonschema[format]==4.26.0
+pypdfium2==5.12.1

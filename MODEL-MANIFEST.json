@@ -1,0 +1,22 @@
+{
+  "models/paddle-reader/official_models/latin_PP-OCRv3_mobile_rec/inference.pdiparams": {
+    "bytes": 8940218,
+    "sha256": "fa6f22a8b2a669c7d5b4dfd2607491abd4cd2467adf7077c9cc70ce8c47b61d9"
+  },
+  "models/paddle-reader/official_models/PP-LCNet_x1_0_doc_ori/inference.pdiparams": {
+    "bytes": 6754166,
+    "sha256": "e8d6e7c5d264507e40e58a655779059d616b20d7441ea22047d829eb3931989c"
+  },
+  "models/paddle-reader/official_models/PP-OCRv3_mobile_det/inference.pdiparams": {
+    "bytes": 2377917,
+    "sha256": "7e9518c6ab706fe87842a8de1c098f990e67f9212b67c9ef8bc4bca6dc17b91a"
+  },
+  "output/pp-doclayout-v3-1511/models/PP-DocLayoutV3_safetensors/model.safetensors": {
+    "bytes": 133270468,
+    "sha256": "5ea422c6cc5fe759a47e1357c35639b58173508e025a3131cbe4b6ac59e2b85e"
+  },
+  "output/vietreceipt-terminal/bundles/HEADER-CHECKPOINT-TICH-HOP/models/vietocr-pos/checkpoint.pth": {
+    "bytes": 89572198,
+    "sha256": "a4b7a6985859b8817af993870c1de5ffef8e3c3322c4e317f3964d07d317a2c2"
+  }
+}

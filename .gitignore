@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+runs/
+.cache/
+.paddlex-cache/
+.pytest_cache/
+*.log
+pip-install-report.json
+.env
+.env.*
